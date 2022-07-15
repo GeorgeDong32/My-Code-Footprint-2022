@@ -1,5 +1,6 @@
 *.exe
 *.o
+*.layout
 #忽略文件夹
 .vs
 x64/
