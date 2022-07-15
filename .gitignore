@@ -1,2 +1,9 @@
 *.exe
 *.o
+#忽略文件夹
+.vs
+x64/
+Debug/
+*.vcxproj
+*.filters
+*.user
