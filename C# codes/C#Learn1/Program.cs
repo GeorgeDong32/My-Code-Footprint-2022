@@ -22,3 +22,6 @@ Console.WriteLine($"double : {double.MinValue} to {double.MaxValue} (with ~15-17
 Console.WriteLine($"decimal: {decimal.MinValue} to {decimal.MaxValue} (with 28-29 digits of precision)");
 */
 int[] data = new int[3];
+
+string shortenedString = "Hello World!";
+Console.WriteLine(shortenedString);
