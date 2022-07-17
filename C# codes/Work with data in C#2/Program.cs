@@ -15,7 +15,7 @@ foreach (var pallet in pallets)
 {
     Console.WriteLine($"-- {pallet}");
 }*/
-/*Unit 3*/
+/*Unit 3
 string[] pallets = { "B14", "A11", "B12", "A13" };
 Console.WriteLine("");
 
@@ -46,3 +46,8 @@ foreach (var pallet in pallets)
 {
     Console.WriteLine($"-- {pallet}");
 }
+*/
+
+/*Unit 4*/
+string value = "abc123";
+char[] valueArray = value.ToCharArray();
