@@ -23,7 +23,7 @@ Console.WriteLine($"   Measurement: {productMeasurement:N3} mg");
 Console.WriteLine($"     Sub Total: {subtotal:C}");
 Console.WriteLine($"           Tax: {taxPercentage:P2}");
 Console.WriteLine($"     Total Due: {total:C}");*/
-/*Unit 4*/
+/*Unit 4
 string input = "Pad this";
 Console.WriteLine(input.PadLeft(12));
 Console.WriteLine(input.PadRight(12));
@@ -38,4 +38,33 @@ formattedLine += payeeName.PadRight(24);
 formattedLine += paymentAmount.PadLeft(10);
 
 Console.WriteLine("1234567890123456789012345678901234567890");
-Console.WriteLine(formattedLine);
+Console.WriteLine(formattedLine);*/
+/*Challenge*/
+string customerName = "Mr. Jones";
+
+string currentProduct = "Magic Yield";
+int currentShares = 2975000;
+decimal currentReturn = 0.1275m;
+decimal currentProfit = 55000000.0m;
+
+string newProduct = "Glorious Future";
+decimal newReturn = 0.13125m;
+decimal newProfit = 63000000.0m;
+
+Console.WriteLine($"Dear {customerName},");
+Console.WriteLine($"As a customer of our {currentProduct} offering we are excited to tell you about a new financial product that would dramatically increase your return.");
+Console.WriteLine();
+Console.WriteLine($"Currently, you own {currentShares:N2} shares at a return of {currentReturn:P2}.");
+Console.WriteLine();
+Console.WriteLine($"Our new product, {newProduct} offers a return of {newReturn:P2}.  Given your current volume, your potential profit would be {newProfit:C:N2}.");
+Console.WriteLine();
+
+Console.WriteLine("Here's a quick comparison:\n");
+
+string comparisonMessage = "";
+
+string Line1 = $"{currentProduct.PadRight(20)}{currentReturn:P2}   {currentProfit:C:N2}";
+string Line2 = $"{newProduct.PadRight(20)}{newReturn:P2}   {newProfit:C:N2}";
+comparisonMessage = $"{Line1}\n{Line2}";
+
+Console.WriteLine(comparisonMessage);
