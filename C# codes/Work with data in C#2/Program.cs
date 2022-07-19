@@ -62,10 +62,16 @@ foreach (string item in items)
 /*Fisrst Challenge*/
 string pangram = "The quick brown fox jumps over the lazy dog";
 string[] splitresult = pangram.Split(" ");
-foreach (var item in splitresult)
+string[] result = new string[splitresult.Length];
+int ctrl = 0;
+foreach (var mids in splitresult)
 {
-    item.Reverse();
+    //Console.WriteLine(mids);
+    char[] mid = mids.ToCharArray();
+    Array.Reverse(mid);
+    result[ctrl] = new String(mid);
+    ctrl++;
 }
 pangram = "";
-pangram = String.Join(" ", splitresult);
+pangram = String.Join(" ", result);
 Console.WriteLine(pangram);
