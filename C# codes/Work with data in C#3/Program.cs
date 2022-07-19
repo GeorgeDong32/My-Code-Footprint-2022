@@ -63,8 +63,8 @@ Console.WriteLine("Here's a quick comparison:\n");
 
 string comparisonMessage = "";
 
-string Line1 = $"{currentProduct.PadRight(20)}{currentReturn:P2}   {currentProfit:C:N2}";
-string Line2 = $"{newProduct.PadRight(20)}{newReturn:P2}   {newProfit:C:N2}";
+string Line1 = $"{currentProduct.PadRight(20)}{currentReturn:P2}   {currentProfit:C}";
+string Line2 = $"{newProduct.PadRight(20)}{newReturn:P2}   {newProfit:C}";
 comparisonMessage = $"{Line1}\n{Line2}";
 
 Console.WriteLine(comparisonMessage);
