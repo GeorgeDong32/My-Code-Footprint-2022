@@ -47,8 +47,7 @@ foreach (var pallet in pallets)
     Console.WriteLine($"-- {pallet}");
 }
 */
-
-/*Unit 4*/
+/*Unit 4
 string value = "abc123";
 char[] valueArray = value.ToCharArray();
 Array.Reverse(valueArray);
@@ -59,4 +58,14 @@ string[] items = result.Split(',');
 foreach (string item in items)
 {
     Console.WriteLine(item);
+}*/
+/*Fisrst Challenge*/
+string pangram = "The quick brown fox jumps over the lazy dog";
+string[] splitresult = pangram.Split(" ");
+foreach (var item in splitresult)
+{
+    item.Reverse();
 }
+pangram = "";
+pangram = String.Join(" ", splitresult);
+Console.WriteLine(pangram);
