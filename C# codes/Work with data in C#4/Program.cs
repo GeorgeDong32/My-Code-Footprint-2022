@@ -52,7 +52,30 @@ while (true)
     int length = closingPosition - openingPosition;
     Console.WriteLine(message.Substring(openingPosition, length));
 }*/
-/*Unit 3*/
+/*Unit 3
 string data = "12345John Smith          5000  3  ";
 string updatedData = data.Remove(5, 20);
-Console.WriteLine(updatedData);
+Console.WriteLine(updatedData);*/
+/*Challenge*/
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+const string ospan = "<span>";
+const string cspan = "</span>";
+const string odiv = "<div>";
+const string cdiv = "</div>";
+int ospanp = input.IndexOf(ospan);
+int cspanp = input.IndexOf(cspan);
+int odivp = input.IndexOf(odiv);
+int cdivp = input.IndexOf(cdiv);
+ospanp += ospan.Length;
+int l1 = cspanp - ospanp;
+odivp += odiv.Length;
+int l2 = cdivp - odivp;
+quantity = input.Substring(ospanp, l1);
+output = input.Substring(odivp, l2);
+
+Console.WriteLine(quantity);
+Console.WriteLine(output);
