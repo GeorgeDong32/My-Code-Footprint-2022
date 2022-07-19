@@ -56,7 +56,7 @@ Console.WriteLine($"As a customer of our {currentProduct} offering we are excite
 Console.WriteLine();
 Console.WriteLine($"Currently, you own {currentShares:N2} shares at a return of {currentReturn:P2}.");
 Console.WriteLine();
-Console.WriteLine($"Our new product, {newProduct} offers a return of {newReturn:P2}.  Given your current volume, your potential profit would be {newProfit:C:N2}.");
+Console.WriteLine($"Our new product, {newProduct} offers a return of {newReturn:P2}.  Given your current volume, your potential profit would be {newProfit:C}.");
 Console.WriteLine();
 
 Console.WriteLine("Here's a quick comparison:\n");
