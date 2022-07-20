@@ -17,5 +17,5 @@ else
     Console.WriteLine("tails");
 }
 //
-Random coin = new Random();
+//Random coin = new Random();
 Console.WriteLine((coin.Next(0, 2) == 0) ? "heads" : "tails");
