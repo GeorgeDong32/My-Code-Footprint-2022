@@ -1,7 +1,7 @@
 ﻿/*Unit 2*/
-bool flag = true;
-if (flag)
-{
-    int value = 10;
-    Console.WriteLine($"Inside of code block: {value}");
-}
+Console.WriteLine("a" == "a");
+Console.WriteLine("a" == "A");
+Console.WriteLine(1 == 2);
+
+string myValue = "a";
+Console.WriteLine(myValue == "a");
