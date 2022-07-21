@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My-Code-Footprint\\C# codes\\Work with data in C#4\\Work with data in C#4.csproj": {}
+    "D:\\My-Code-Footprint\\C# codes\\Work with data in C#\\Modify the content of strings\\Work with data in C#4.csproj": {}
   },
   "projects": {
-    "D:\\My-Code-Footprint\\C# codes\\Work with data in C#4\\Work with data in C#4.csproj": {
+    "D:\\My-Code-Footprint\\C# codes\\Work with data in C#\\Modify the content of strings\\Work with data in C#4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My-Code-Footprint\\C# codes\\Work with data in C#4\\Work with data in C#4.csproj",
+        "projectUniqueName": "D:\\My-Code-Footprint\\C# codes\\Work with data in C#\\Modify the content of strings\\Work with data in C#4.csproj",
         "projectName": "Work with data in C#4",
-        "projectPath": "D:\\My-Code-Footprint\\C# codes\\Work with data in C#4\\Work with data in C#4.csproj",
+        "projectPath": "D:\\My-Code-Footprint\\C# codes\\Work with data in C#\\Modify the content of strings\\Work with data in C#4.csproj",
         "packagesPath": "C:\\Users\\GeorgeDong\\.nuget\\packages\\",
-        "outputPath": "D:\\My-Code-Footprint\\C# codes\\Work with data in C#4\\obj\\",
+        "outputPath": "D:\\My-Code-Footprint\\C# codes\\Work with data in C#\\Modify the content of strings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
