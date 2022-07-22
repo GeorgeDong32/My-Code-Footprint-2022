@@ -12,3 +12,5 @@ can_liftoff = True
 shuttle_landed_on_the_moon = "Apollo 11"  # string
 # date
 print(date.today())
+# Convert
+print("Today's date is: " + str(date.today()))
