@@ -14,3 +14,8 @@ shuttle_landed_on_the_moon = "Apollo 11"  # string
 print(date.today())
 # Convert
 print("Today's date is: " + str(date.today()))
+
+# input
+print("Welcome to the greeter program")
+name = input("Enter your name ")
+print("Greetings: " + name)
