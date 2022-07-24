@@ -6,6 +6,7 @@ This repository is used to record my code footprint during my study. All codes a
 <h2 align="center">
   <img src="https://img.shields.io/badge/Microsoft_Learn-FFFFFF?style=for-the-badge&logo=microsoft&logoColor=258ffa" alt="Microsoft Learn" width="300">
   <img src="https://img.shields.io/badge/LeetCode-FFFFFF?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" alt="LeetCode" width="195">
+  <!--<img src="https://img.shields.io/badge/Runoob-FFFFFF?style=for-the-badge&logo=RUNOOB&logoColor=#d16c06" alt="LeetCode" width="195">--!>
 </h2>
 
 ## Made with IDEs
