@@ -10,3 +10,7 @@ print(f"sub = {difference}")
 # multiply
 product = 30 * 12
 print(f"mult = {product}")
+
+# division
+quotient = 30 / 12
+print(f"division = {quotient}")
