@@ -19,3 +19,14 @@ regular_satellite_moons = amalthea_group + galilean_moons
 print("The regular satellite moons of Jupiter are", regular_satellite_moons)
 # Output
 # The regular satellite moons of Jupiter are ['Metis', 'Adrastea', 'Amalthea', 'Thebe', 'Io', 'Europa', 'Ganymede', 'Callisto']
+
+# 对列表进行排序
+regular_satellite_moons.sort()
+print("The regular satellite moons of Jupiter are", regular_satellite_moons)
+# Output
+# The regular satellite moons of Jupiter are ['Adrastea', 'Amalthea', 'Callisto', 'Europa', 'Ganymede', 'Io', 'Metis', 'Thebe']
+
+regular_satellite_moons.sort(reverse=True)
+print("The regular satellite moons of Jupiter are", regular_satellite_moons)
+# Output
+# The regular satellite moons of Jupiter are ['Thebe', 'Metis', 'Io', 'Ganymede', 'Europa', 'Callisto', 'Amalthea', 'Adrastea']
