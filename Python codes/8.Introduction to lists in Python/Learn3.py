@@ -12,3 +12,10 @@ print(planets_after_earth)
 # ['Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
 
 # 联接列表
+amalthea_group = ["Metis", "Adrastea", "Amalthea", "Thebe"]
+galilean_moons = ["Io", "Europa", "Ganymede", "Callisto"]
+
+regular_satellite_moons = amalthea_group + galilean_moons
+print("The regular satellite moons of Jupiter are", regular_satellite_moons)
+# Output
+# The regular satellite moons of Jupiter are ['Metis', 'Adrastea', 'Amalthea', 'Thebe', 'Io', 'Europa', 'Ganymede', 'Callisto']
