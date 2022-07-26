@@ -23,10 +23,9 @@ while new_planet.lower() != 'done':
 # Create a `for` loop to iterate over the `planets` name list. You can use `planet` as the name of the variable for each planet. Inside the `for` loop, use `print` to display each `planet` name.
 
 # In[ ]:
-
-
 # Enter code below
-
+for planet in planets:
+    print(planet)
 
 # Your code should look like this:
 #
