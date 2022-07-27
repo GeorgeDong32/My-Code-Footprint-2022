@@ -17,7 +17,9 @@
 
 
 # Enter code below
-
+def fuel_report(**fuel_tanks):
+    for name, value in fuel_tanks.items():
+        print(f'{name}: {value}')
 
 # Your code should look like the following. Note that there are numerous ways to concatenate strings, so yours may vary.
 #
