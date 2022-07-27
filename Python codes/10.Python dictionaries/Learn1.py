@@ -26,3 +26,9 @@ planet['name'] = 'Jupiter'
 planet['moons'] = 79
 print(planet['name'])
 print(planet['moons'])
+
+#delete and add
+planet['orbital period'] = 4333
+print(planet['orbital period'])
+planet.pop('orbital period')
+#print(planet['orbital period'])
