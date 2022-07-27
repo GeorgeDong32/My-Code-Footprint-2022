@@ -1,7 +1,7 @@
 def main():
     try:
         configuration = open('config.txt')
-    except FileNotFoundError:
+    except Exception:
         print("Couldn't find the config.txt file!")
 
 
