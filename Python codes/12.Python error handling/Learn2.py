@@ -1,3 +1,4 @@
+# 异常处理
 try:
     open('config.txt')
 except FileNotFoundError:
