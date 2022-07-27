@@ -11,7 +11,7 @@ This repository is used to record my code footprint during my study. All codes a
 
 ## Made with IDEs
 <h2 align="center">
-  <img src="https://img.shields.io/badge/Visual_Studio-FFFFFF?style=for-the-badge&logo=visual%20studio&logoColor=ac7ee1" alt="VS" width="254">
+  <img src="https://img.shields.io/badge/Visual_Studio-FFFFFF?style=for-the-badge&logo=visual%20studio&logoColor=9679bf" alt="VS" width="254">
   <img src="https://img.shields.io/badge/JetBrains-FFFFFF?style=for-the-badge&logo=JetBrains&logoColor=black" alt="Rider" width="200">
   <img src="https://img.shields.io/badge/Visual_Studio_Code-FFFFFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=229eff" alt="VSC" width="322">
   <!--<img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="QT" width="80">--!>
