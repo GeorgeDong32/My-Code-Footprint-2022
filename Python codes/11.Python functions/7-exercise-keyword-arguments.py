@@ -43,7 +43,7 @@ def fuel_report(**fuel_tanks):
 
 
 # Enter code below
-
+fuel_report(main=50, external=100, emergency=60)
 
 # Your code should look like the following:
 #
