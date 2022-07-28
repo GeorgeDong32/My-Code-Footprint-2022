@@ -17,7 +17,4 @@ def water_left(astronauts, water_left, days_left):
     return f"Total water left after {days_left} days is: {total_water_left} liters"
 
 
-try:
-    water_left(5, 100, 2)
-except RuntimeError as err:
-    alert_navigation_system(err)
+water_left("3", "200", None)
