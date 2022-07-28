@@ -47,3 +47,23 @@ def lasso_letter(letter, shift_amount):
 
 print(lasso_letter('a', 2))
 print(lasso_letter('N', 13))
+
+
+def lasso_word(word, shift_amount):
+    decoded_word = ""
+
+    for letter in word:
+        decoded_letter = lasso_letter(letter, shift_amount)
+        decoded_word = decoded_word + decoded_letter
+
+    return decoded_word
+
+
+# Try to decode the word "terra"
+print("Shifting terra by 13 gives: \n" + lasso_word("terra", 13))
+
+#decrpty
+print( "Shifting Ncevy by 13 gives: \n" + lasso_word( "Ncevy", 13 ) )
+print( "Shifting gpvsui by 25 gives: \n" + lasso_word( "gpvsui", 25 ) )
+print( "Shifting ugflgkg by -18 gives: \n" + lasso_word( "ugflgkg", -18 ) )
+print( "Shifting wjmmf by -1 gives: \n" + lasso_word( "wjmmf", -1 ) )
