@@ -1,5 +1,7 @@
 # Github Notes
 
+[TOC]
+
 ## Git 使用
 
 ### git 创建:
@@ -75,3 +77,6 @@ git push -u (第二次)
 
 <img src="Pics\开源证书选择.jpg" alt="img" style="zoom:80%;" align='left'/>
 
+## GitHub仓库语言占比
+
+仓库的语言占比经测试是按照对应语言的文件大小计算,而非完全依照行数计算

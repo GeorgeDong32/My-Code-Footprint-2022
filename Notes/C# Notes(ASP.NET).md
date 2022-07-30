@@ -344,6 +344,15 @@ public class WeatherForecastController : ControllerBase
 
 #### 为控制器提供方法(函数实现)
 
+##### REST谓词 / CRUD操作
+
+| HTTP 操作谓词 | CRUD 操作 | ASP.NET Core 属性 |
+| :------------ | :-------- | :---------------- |
+| `GET`         | 读取      | `[HttpGet]`       |
+| `POST`        | 创建      | `[HttpPost]`      |
+| `PUT`         | 更新      | `[HttpPut]`       |
+| `DELETE`      | 删除      | `[HttpDelete]`    |
+
 ##### GET
 
 ````c#
@@ -367,3 +376,71 @@ public ActionResult<Pizza> Get(int id)
 }
 ````
 
+##### POST
+
+```csharp
+[HttpPost]
+public IActionResult Create(Pizza pizza)
+{            
+    PizzaService.Add(pizza);
+    return CreatedAtAction(nameof(Create), new { id = pizza.Id }, pizza);
+}
+```
+
+###### 操作结果
+
+| ASP.NET Core 操作结果 | HTTP 状态代码 | 说明                                                         |
+| :-------------------- | :------------ | :----------------------------------------------------------- |
+| `CreatedAtAction`     | 201           | 已将披萨添加到内存中缓存。 该披萨包含在由 `accept` HTTP 请求标头中所定义的媒体类型（默认情况下为 JSON）的响应正文中。 |
+| `BadRequest` 为隐式   | 400           | 请求正文的 `pizza` 对象无效。                                |
+
+##### PUT
+
+```csharp
+[HttpPut("{id}")]
+public IActionResult Update(int id, Pizza pizza)
+{
+    if (id != pizza.Id)
+        return BadRequest();
+           
+    var existingPizza = PizzaService.Get(id);
+    if(existingPizza is null)
+        return NotFound();
+   
+    PizzaService.Update(pizza);           
+   
+    return NoContent();
+}
+```
+
+###### 操作结果
+
+| ASP.NET Core 操作结果 | HTTP 状态代码 | 说明                                       |
+| :-------------------- | :------------ | :----------------------------------------- |
+| `NoContent`           | 204           | 已在内存中缓存中更新了披萨。               |
+| `BadRequest`          | 400           | 请求正文的 `Id` 值与路由的 `id` 值不匹配。 |
+| `BadRequest` 为隐式   | 400           | 请求正文的 `Pizza` 对象无效。              |
+
+##### DELETE
+
+```csharp
+[HttpDelete("{id}")]
+public IActionResult Delete(int id)
+{
+    var pizza = PizzaService.Get(id);
+   
+    if (pizza is null)
+        return NotFound();
+       
+    PizzaService.Delete(id);
+   
+    return NoContent();
+}
+```
+
+###### 操作结果
+
+| ASP.NET Core 操作结果 | HTTP 状态代码 | 说明                                               |
+| :-------------------- | :------------ | :------------------------------------------------- |
+| `NoContent`           | 204           | 已从内存中缓存中删除了披萨。                       |
+| `NotFound`            | 404           | 内存中缓存中不存在与所提供的 `id` 参数匹配的披萨。 |
