@@ -75,7 +75,8 @@ git push -u (第二次)
 
 ### 证书区别
 
-<img src="Pics\开源证书选择.jpg" alt="img" style="zoom:80%;" align='left'/>
+<img src="Pics\开源证书选择.jpg" alt="img" style="zoom:80%;">
+
 
 ## GitHub仓库语言占比
 
