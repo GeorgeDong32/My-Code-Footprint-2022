@@ -1,13 +1,18 @@
 from flask import Flask, redirect, url_for, request, render_template, session
-import requests, os, uuid, json
+import requests
+import os
+import uuid
+import json
 from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
+
 
 @app.route('/', methods=['POST'])
 def index_post():
@@ -36,10 +41,11 @@ def index_post():
     }
 
     # Create the body of the request with the text to be translated
-    body = [{ 'text': original_text }]
+    body = [{'text': original_text}]
 
     # Make the call using post
-    translator_request = requests.post(constructed_url, headers=headers, json=body)
+    translator_request = requests.post(
+        constructed_url, headers=headers, json=body)
     # Retrieve the JSON response
     translator_response = translator_request.json()
     # Retrieve the translation
