@@ -1,7 +1,7 @@
 # My-Code-Footprint
 > Here is my code footprint
 ## About repository
-This repository is used to record my code footprint during my study. All codes are for learning purposes only! Thanks for the JetBrains' free student pack.
+This repository is used to record my code footprint during my study. All codes are for learning purposes only!
 ## Learn with
 <h2 align="center">
   <img src="https://img.shields.io/badge/Microsoft_Learn-FFFFFF?style=for-the-badge&logo=microsoft&logoColor=258ffa" alt="Microsoft Learn" width="300">
@@ -16,3 +16,6 @@ This repository is used to record my code footprint during my study. All codes a
   <img src="https://img.shields.io/badge/Visual_Studio_Code-FFFFFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=229eff" alt="VSC" width="322">
   <!--<img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="QT" width="80">--!>
 </h2>
+
+## Thanks
+Thanks for the JetBrains' free student pack and Azure for Students subscription.
