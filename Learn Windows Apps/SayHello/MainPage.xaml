@@ -9,6 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="361,342,0,0" TextWrapping="Wrap" Text="Hello there!" VerticalAlignment="Top" Height="80" Width="360" FontSize="36" TextAlignment="Center" BorderThickness="1,1,8,8"/>
+        <Button x:Name="SayHelloButton" Content="Say hello" Margin="409,567,0,0" VerticalAlignment="Top" Click="SayHelloButton_Click"/>
 
     </Grid>
 </Page>
