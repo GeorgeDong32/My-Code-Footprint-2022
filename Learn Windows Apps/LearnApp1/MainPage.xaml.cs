@@ -25,6 +25,23 @@ namespace LearnApp1
         public MainPage()
         {
             this.InitializeComponent();
+            Hello();
+        }
+
+        public void Hello()
+        {
+            int a = 1;
+            int b = 2;
+            int c = a + b;
+
+            if (c == 4)
+            {
+                // Success
+            }
+            else
+            {
+                // Fail
+            }
         }
     }
 }
