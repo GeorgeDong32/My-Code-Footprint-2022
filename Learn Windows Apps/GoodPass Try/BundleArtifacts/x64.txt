@@ -1,2 +1,0 @@
-MainPackage=D:\My-Code-Footprint\Learn Windows Apps\GoodPass Try\bin\x64\Release\GoodPass Try_1.0.0.0_x64.msix
-SymbolPackage=D:\My-Code-Footprint\Learn Windows Apps\GoodPass Try\obj\x64\Release\Symbols\GoodPass Try_1.0.0.0_x64.appxsym
