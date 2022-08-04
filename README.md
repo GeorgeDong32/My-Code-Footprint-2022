@@ -4,6 +4,7 @@
 This repository is used to record my code footprint during my study. All codes are for learning purposes only!
 
 <img src="https://github.com/GeorgeDong32/My-Code-Footprint/blob/main/MCF-License.png" alt="License" width="1200">
+
 ## Learn with
 <h2 align="center">
   <img src="https://img.shields.io/badge/Microsoft_Learn-FFFFFF?style=for-the-badge&logo=microsoft&logoColor=258ffa" alt="Microsoft Learn" width="300">
