@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Classes
 {
@@ -7,6 +8,7 @@ namespace Classes
         public string Number { get; set; }
         public string Owner { get; set; }
         public decimal Balance { get; set; }
+        private List<Transaction> allTransactions = new List<Transaction>();
         private static int accountNumberSeed = 11111111;
         public BankAccount(string owner, decimal balance)
         {
@@ -14,6 +16,7 @@ namespace Classes
             Owner = owner;
             Balance = balance;
             accountNumberSeed++;
+
         }
     
         public void MakeDeposit(decimal amount, DateTime date, string note)
