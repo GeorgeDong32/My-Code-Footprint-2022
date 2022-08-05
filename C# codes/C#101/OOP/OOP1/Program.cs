@@ -18,6 +18,7 @@ namespace MySuperBank
             {
                 Console.WriteLine("Exception caught trying to overdraw");
                 Console.WriteLine(e.ToString());
+                return;
             }
         }
     }
