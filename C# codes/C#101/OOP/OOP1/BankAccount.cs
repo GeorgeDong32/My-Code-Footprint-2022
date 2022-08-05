@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MySuperBank
+namespace Classes
 {
     public class BankAccount
     {
