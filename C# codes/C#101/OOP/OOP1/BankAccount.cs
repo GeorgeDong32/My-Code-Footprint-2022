@@ -23,9 +23,10 @@ namespace Classes
         }
         private List<Transaction> allTransactions = new List<Transaction>();
         private static int accountNumberSeed = 11111111;
-        public BankAccount(string owner)
+        public BankAccount(string owner, decimal initalAmount)
         {
             Number = accountNumberSeed.ToString();
+            MakeDeposit(initalAmount, DateTime.Now, "Init Account");
             Owner = owner;
             accountNumberSeed++;
 
