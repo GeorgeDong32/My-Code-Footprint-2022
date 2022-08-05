@@ -15,7 +15,7 @@ namespace Classes
                 {
                     balance += item.Amount;
                 }
-                return Balance;
+                return balance;
             }
             set
             { 
@@ -29,7 +29,6 @@ namespace Classes
             MakeDeposit(initalAmount, DateTime.Now, "Init Account");
             Owner = owner;
             accountNumberSeed++;
-
         }
 
         public void MakeDeposit(decimal amount, DateTime date, string note)
