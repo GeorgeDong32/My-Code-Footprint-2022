@@ -23,8 +23,12 @@ namespace Class1
         {
             var turnip = SomeRootVegetable.Turnip;
             var spring = Seasons.Spring;
-            var startingOnEquinox = Seasons.Spring | Seasons.Autumn;
+            var startingOnEquinox = Seasons.Spring | Seasons.Autumn; // "|"代表组合，显式上等于值相加
             var theYear = Seasons.All;
+            Console.WriteLine(turnip);
+            Console.WriteLine(spring);
+            Console.WriteLine(startingOnEquinox);
+            Console.WriteLine(theYear);
         }
     }
 }
