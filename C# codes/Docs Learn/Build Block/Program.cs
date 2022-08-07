@@ -112,7 +112,7 @@ public class Operation : Expression
     }
 }*/
 //方法重载
-var o = new OverloadingExample();
+/*var o = new OverloadingExample();
 OverloadingExample.UsageExample();
 class OverloadingExample
 {
@@ -134,4 +134,4 @@ class OverloadingExample
         F<int>(1);      // Invokes F<T>(T), T is System.Int32
         F(1, 1);        // Invokes F(double, double)
     }
-}
+}*/
