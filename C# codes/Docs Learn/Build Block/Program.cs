@@ -1,4 +1,5 @@
-﻿Entity.SetNextSerialNo(1000);
+﻿//静态方法
+/*Entity.SetNextSerialNo(1000);
 Entity e1 = new();
 Entity e2 = new();
 Console.WriteLine(e1.GetSerialNo());          // Outputs "1000"
@@ -28,4 +29,6 @@ class Entity
     {
         s_nextSerialNo = value;
     }
-}
+}*/
+//虚方法、抽象方法和方法重写
+
