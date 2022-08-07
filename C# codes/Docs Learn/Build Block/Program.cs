@@ -248,6 +248,7 @@ class EventExample
     }
 }*/
 //委托
+
 delegate double Function(double x);
 
 class Multiplier
