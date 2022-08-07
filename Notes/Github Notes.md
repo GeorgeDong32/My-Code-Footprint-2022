@@ -77,6 +77,7 @@ git push -u (第二次)
 
 <img src="Pics\开源证书选择.jpg" alt="img" style="zoom:80%;">
 
+<img src="https://github.com/GeorgeDong32/My-Code-Footprint/blob/main/Notes/Pics/License_explian_zh.svg">
 
 ## GitHub仓库语言占比
 
