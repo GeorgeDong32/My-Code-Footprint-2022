@@ -15,7 +15,7 @@ Console.WriteLine(cube(3));
 
 Func<int, int, int> constant = (_, _) => 42;
 Console.WriteLine(constant(0, 0));*/
-public partial class Form1 : Form
+/*public partial class Form1 : Form
 {
     public Form1()
     {
@@ -34,4 +34,4 @@ public partial class Form1 : Form
         // The following line simulates a task-returning asynchronous process.
         await Task.Delay(1000);
     }
-}
+}*/
