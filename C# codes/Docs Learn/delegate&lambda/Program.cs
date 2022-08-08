@@ -35,3 +35,21 @@ Console.WriteLine(constant(0, 0));*/
         await Task.Delay(1000);
     }
 }*/
+//First delegate
+Logger.WriteMessage += LoggingMethods.LogToConsole;
+public static class Logger
+{
+    public static Action<string> WriteMessage;
+
+    public static void LogMessage(string msg)
+    {
+        WriteMessage(msg);
+    }
+}
+public static class LoggingMethods
+{
+    public static void LogToConsole(string message)
+    {
+        Console.Error.WriteLine(message);
+    }
+}
