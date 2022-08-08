@@ -1,5 +1,4 @@
-﻿
-public async Task<int> RetrieveDocsHomePage()
+﻿public async Task<int> RetrieveDocsHomePage()
 {
     var client = new HttpClient();
     byte[] content = await client.GetByteArrayAsync("https://docs.microsoft.com/");
