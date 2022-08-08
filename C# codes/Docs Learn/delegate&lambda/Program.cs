@@ -1,4 +1,4 @@
-﻿Func<int, int> square = x => x * x;
+﻿/*Func<int, int> square = x => x * x;
 Console.WriteLine(square(5));
 // Output:
 // 25
@@ -14,4 +14,4 @@ Func<double, double> cube = (x) => x * x * x;
 Console.WriteLine(cube(3));
 
 Func<int, int, int> constant = (_, _) => 42;
-Console.WriteLine(constant(0, 0));
+Console.WriteLine(constant(0, 0));*/
