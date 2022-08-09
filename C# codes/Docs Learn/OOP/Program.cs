@@ -27,7 +27,7 @@ Console.WriteLine(change.ToString());
     2 - Change the Design of the Base Class
 */
 // WorkItem implicitly inherits from the Object class.
-
+/*
 public class WorkItem
 {
     // Static field currentID stores the job ID of the last WorkItem that
