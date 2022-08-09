@@ -28,7 +28,7 @@ public class Car : IEquatable<Car>
 //泛型
 // Declare the generic class.
 // type parameter T in angle brackets
-public class GenericList<T>
+/*public class GenericList<T>
 {
     // The nested class is also generic on T.
     private class Node
@@ -104,4 +104,4 @@ class TestGenericList
         }
         System.Console.WriteLine("\nDone");
     }
-}
+}*/
