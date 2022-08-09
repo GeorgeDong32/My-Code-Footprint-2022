@@ -1,5 +1,5 @@
 ﻿//继承
-// Create an instance of WorkItem by using the constructor in the
+/*// Create an instance of WorkItem by using the constructor in the
 // base class that takes three arguments.
 WorkItem item = new WorkItem("Fix Bugs",
                             "Fix all bugs in my code branch",
@@ -113,3 +113,5 @@ public class ChangeRequest : WorkItem
         this.originalItemID = originalID;
     }
 }
+*/
+//多形性
