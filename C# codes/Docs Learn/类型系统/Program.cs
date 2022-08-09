@@ -1,5 +1,5 @@
 ﻿//Interface
-Car car1 = new Car();
+/*Car car1 = new Car();
 Car car2 = new Car();
 car1.Make = "German";
 car1.Model = "BMW";
@@ -23,5 +23,29 @@ public class Car : IEquatable<Car>
     {
         return (this.Make, this.Model, this.Year) ==
             (car?.Make, car?.Model, car?.Year);
+    }
+}*/
+//泛型
+// Declare the generic class.
+public class GenericList<T>
+{
+    public void Add(T input) { }
+}
+class TestGenericList
+{
+    private class ExampleClass { }
+    static void Main()
+    {
+        // Declare a list of type int.
+        GenericList<int> list1 = new GenericList<int>();
+        list1.Add(1);
+
+        // Declare a list of type string.
+        GenericList<string> list2 = new GenericList<string>();
+        list2.Add("");
+
+        // Declare a list of type ExampleClass.
+        GenericList<ExampleClass> list3 = new GenericList<ExampleClass>();
+        list3.Add(new ExampleClass());
     }
 }
