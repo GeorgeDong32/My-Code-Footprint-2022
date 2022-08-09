@@ -132,6 +132,7 @@ foreach (var shape in shapes)
 {
     shape.Draw();
 }
+
 /* Output:
     Drawing a rectangle
     Performing base class drawing tasks
