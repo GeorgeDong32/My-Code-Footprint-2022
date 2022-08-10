@@ -183,3 +183,8 @@ public class Triangle : Shape
         base.Draw();
     }
 }*/
+//重写
+
+
+//覆盖
+
