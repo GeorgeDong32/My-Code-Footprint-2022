@@ -183,7 +183,7 @@ public class Triangle : Shape
         base.Draw();
     }
 }*/
-/*重写*/
+/*重写
 DerivedClass B = new DerivedClass();
 B.DoWork();  // Calls the new method.
 
@@ -205,6 +205,30 @@ public class DerivedClass : BaseClass
         get { return 0; }
     }
 }
+*/
 
 //覆盖
+DerivedClass B = new DerivedClass();
+B.DoWork();  // Calls the new method.
 
+BaseClass A = (BaseClass)B;
+A.DoWork();  // Calls the old method.
+public class BaseClass
+{
+    public void DoWork() { Console.WriteLine("Call base func"); WorkField++; }
+    public int WorkField;
+    public int WorkProperty
+    {
+        get { return 0; }
+    }
+}
+
+public class DerivedClass : BaseClass
+{
+    public new void DoWork() { Console.WriteLine("Call derived func"); WorkField++; }
+    public new int WorkField;
+    public new int WorkProperty
+    {
+        get { return 0; }
+    }
+}
