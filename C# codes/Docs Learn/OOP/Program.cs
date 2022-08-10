@@ -119,7 +119,7 @@ public class ChangeRequest : WorkItem
 // can all be used whereever a Shape is expected. No cast is
 // required because an implicit conversion exists from a derived
 // class to its base class.
-var shapes = new List<Shape>
+/*var shapes = new List<Shape>
 {
     new Rectangle(),
     new Triangle(),
@@ -131,7 +131,7 @@ var shapes = new List<Shape>
 foreach (var shape in shapes)
 {
     shape.Draw();
-}
+}*/
 
 /* Output:
     Drawing a rectangle
@@ -141,7 +141,7 @@ foreach (var shape in shapes)
     Drawing a circle
     Performing base class drawing tasks
 */
-public class Shape
+/*public class Shape
 {
     // A few example members
     public int X { get; private set; }
@@ -182,4 +182,4 @@ public class Triangle : Shape
         Console.WriteLine("Drawing a triangle");
         base.Draw();
     }
-}
+}*/
