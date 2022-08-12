@@ -1,4 +1,4 @@
-﻿/*Short*/
+﻿/*Short
 public class ExceptionTest
 {
     static double SafeDivision(double x, double y)
@@ -25,4 +25,24 @@ public class ExceptionTest
             Console.WriteLine("Attempted divide by zero.");
         }
     }
+}*/
+/*使用异常*/
+try
+{
+    TestThrow();
 }
+catch (CustomException ex)
+{
+    System.Console.WriteLine(ex.ToString());
+}
+static void TestThrow()
+{
+    throw new CustomException("Custom exception in TestThrow()");
+}
+class CustomException : Exception
+{
+    public CustomException(string message)
+    {
+    }
+}
+
