@@ -42,6 +42,11 @@
                 Clicked="MyBtn_Clicked"
                 HorizontalOptions="Center" />
 
+            <CheckBox 
+                x:Name="MyCheckBox"
+                BindingContext="Check Box"
+                HorizontalOptions="Center"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
