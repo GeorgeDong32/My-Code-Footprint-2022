@@ -29,14 +29,21 @@ public partial class MainPage : ContentPage
 		//SemanticScreenReader.Announce(MyCounter.Text);
 	}
 
+    private byte[] GetRandomBytes(int n)
+    {
+        //  Fill an array of bytes of length "n" with random numbers.
+        var rand = new Random();
+        var randomBytes = new byte[n];
+        rand.NextBytes(randomBytes);
+		return randomBytes;
+    }
+
     private void MyBtn_Clicked(object sender, EventArgs e)
 	{
-		var rand = new Random();
-		var colorint = rand.Next(0, 255);
-		var color = Color.FromRgba(rand.Next(), rand.Next(0, 255), rand.Next(0, 255), 255);
-		Console.WriteLine($"The int of color is{colorint}");
-		MyBtn.TextColor = color;
-        
+		var rgb = GetRandomBytes(3);
+		var color = Color.FromRgba(Convert.ToInt32(rgb[0]), Convert.ToInt32(rgb[1]), Convert.ToInt32(rgb[2]), 255);
+        MyBtn.BackgroundColor = color;
+		MyBtn.Text = "Clicked";
     }
 }
 
