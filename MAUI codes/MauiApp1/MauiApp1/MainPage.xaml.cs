@@ -33,7 +33,7 @@ public partial class MainPage : ContentPage
 	{
 		var rand = new Random();
 		var colorint = rand.Next(0, 255);
-		var color = Color.FromRgba(rand.Next(), rand.Next(0, 255), rand.Next(0, 255), 120);
+		var color = Color.FromRgba(rand.Next(), rand.Next(0, 255), rand.Next(0, 255), 255);
 		Console.WriteLine($"The int of color is{colorint}");
 		MyBtn.TextColor = color;
         
