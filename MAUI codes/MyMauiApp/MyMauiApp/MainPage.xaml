@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiApp1.MainPage">
+             x:Class="MyMauiApp.MainPage">
 
     <ScrollView>
         <VerticalStackLayout
@@ -34,18 +34,6 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
-
-            <Button
-                x:Name="MyBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Changes color when you click"
-                Clicked="MyBtn_Clicked"
-                HorizontalOptions="Center" />
-
-            <CheckBox 
-                x:Name="MyCheckBox"
-                BindingContext="Check Box"
-                HorizontalOptions="Center"/>
 
         </VerticalStackLayout>
     </ScrollView>
