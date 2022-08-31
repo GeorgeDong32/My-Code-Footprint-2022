@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMauiApp", "MyMauiApp\MyMauiApp.csproj", "{D72222F6-0FA8-4615-894F-E8EEB38C54FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoneword", "..\Phoneword\Phoneword.csproj", "{AB418145-07F4-4161-BDD8-4F3DB79347D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{D72222F6-0FA8-4615-894F-E8EEB38C54FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D72222F6-0FA8-4615-894F-E8EEB38C54FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D72222F6-0FA8-4615-894F-E8EEB38C54FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AB418145-07F4-4161-BDD8-4F3DB79347D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB418145-07F4-4161-BDD8-4F3DB79347D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB418145-07F4-4161-BDD8-4F3DB79347D0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AB418145-07F4-4161-BDD8-4F3DB79347D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB418145-07F4-4161-BDD8-4F3DB79347D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB418145-07F4-4161-BDD8-4F3DB79347D0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
