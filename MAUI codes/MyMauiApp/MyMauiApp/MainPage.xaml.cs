@@ -10,7 +10,7 @@ public partial class MainPage : ContentPage
 
     void LoginButton_Clicked(object sender, EventArgs e)
     {
-        //Debug.WriteLine("Clicked !");
+        this.DisplayAlert("Login Process:", "Please confirm your account:" + Account, "Yes", "No");
     }
 }
 

@@ -4,11 +4,11 @@
              x:Class="MyMauiApp.MainPage">
 
     <VerticalStackLayout Margin="15" Padding="30, 60, 30, 30">
-        <Label Text="Please log in" FontSize="30" TextColor="AntiqueWhite"/>
-        <Label Text="Username" TextColor="White" />
-        <Entry />
-        <Label Text="Password" TextColor="White" />
-        <Entry IsPassword="True" />
+        <Label Text="Please log in" FontSize="30" TextColor="Black"/>
+        <Label Text="Username" TextColor="Black" />
+        <Entry x:Name="Account" Background="#eaeaea"/>
+        <Label Text="Password" TextColor="Black" />
+        <Entry x:Name="Password" IsPassword="True" Background="#eaeaea"/>
         <Button Text="Log in" BackgroundColor="#0094FF" Clicked="LoginButton_Clicked" />
     </VerticalStackLayout>
 
