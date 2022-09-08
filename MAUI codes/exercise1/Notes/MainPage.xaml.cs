@@ -2,7 +2,7 @@
 
 public partial class MainPage : ContentPage
 {
-    string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
+    string _fileName = Path.Combine("D:\\My-Code-Footprint\\MAUI codes\\exercise1\\Notes", "notes.txt");
     Editor editor;
 
     public MainPage()
