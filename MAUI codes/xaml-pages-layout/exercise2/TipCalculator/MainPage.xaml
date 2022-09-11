@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:TipCalculator"
              x:Class="TipCalculator.MainPage">
 
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="40" Spacing="10">
 
         <Label Text="Bill" />
         <Entry x:Name="billInput" Placeholder="Enter Amount" Keyboard="Numeric" />
