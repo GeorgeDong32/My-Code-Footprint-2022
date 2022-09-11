@@ -16,11 +16,16 @@
             <Label x:Name="tipOutput" Text="0.00" />
         </HorizontalStackLayout>
 
-        <Label Text="Total" />
-        <Label x:Name="totalOutput" Text="0.00" />
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Total" WidthRequest="100" />
+            <Label x:Name="totalOutput" Text="0.00" />
+        </HorizontalStackLayout>
 
-        <Label Text="Tip Percentage" />
-        <Label x:Name="tipPercent" Text="15%" />
+        <HorizontalStackLayout VerticalOptions="End" Spacing="10">
+            <Label Text="Tip Percentage" WidthRequest="100"/>
+            <Label x:Name="tipPercent" Text="15%" />
+        </HorizontalStackLayout>
+
         <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15" />
 
         <Button Text="15%" Clicked="OnNormalTip" />
