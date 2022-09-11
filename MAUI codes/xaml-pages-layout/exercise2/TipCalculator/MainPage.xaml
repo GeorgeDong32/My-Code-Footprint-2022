@@ -29,13 +29,13 @@
         <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15" />
 
         <HorizontalStackLayout  Margin="0,20,0,0" Spacing="10">
-            <Button Text="15%" Clicked="OnNormalTip" />
-            <Button Text="20%" Clicked="OnGenerousTip" />
+            <Button Text="15%" Clicked="OnNormalTip" WidthRequest="150" HorizontalOptions="Center" />
+            <Button Text="20%" Clicked="OnGenerousTip" WidthRequest="150" HorizontalOptions="Center" />
         </HorizontalStackLayout>
 
         <HorizontalStackLayout Margin="0,20,0,0" Spacing="10">
-            <Button x:Name="roundDown" Text="Round Down" />
-            <Button x:Name="roundUp"   Text="Round Up" />
+            <Button x:Name="roundDown" Text="Round Down"  WidthRequest="150" HorizontalOptions="Center" />
+            <Button x:Name="roundUp"   Text="Round Up" WidthRequest="150" HorizontalOptions="Center" />
         </HorizontalStackLayout>
 
     </VerticalStackLayout>
