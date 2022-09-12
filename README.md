@@ -26,3 +26,4 @@ Thanks for the JetBrains' free student pack and Azure for Students subscription.
 
 ## License
 <img src="https://github.com/GeorgeDong32/My-Code-Footprint/blob/main/MCF-License.png" alt="License" width="1200">
+> test auto merge
