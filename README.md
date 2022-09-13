@@ -1,5 +1,5 @@
 # My-Code-Footprint
-> Here is my code footprint
+> Here is my code footprint!
 ## About repository
 This repository is used to record my code footprint during my study. All codes are for learning purposes only!
 <h1 align="center">
