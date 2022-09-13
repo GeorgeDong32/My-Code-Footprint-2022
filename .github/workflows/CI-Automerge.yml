@@ -4,8 +4,6 @@ on:
     types:
       - labeled
       - synchronize
-      - opened
-      - edited
       - ready_for_review
       - reopened
       - unlocked
