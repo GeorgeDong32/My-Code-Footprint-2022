@@ -9,12 +9,11 @@
             <Color x:Key="bgColor">#C0C0C0</Color>
             <Color x:Key="fgColor">#0000AD</Color>
             <x:Double x:Key="fontSize">22</x:Double>
-            <Style x:Key="infoLabelStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="{StaticResource fontSize}" />
-                <Setter Property="FontAttributes" Value="Bold" />
-            </Style>
             <Style x:Key="baseLabelStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="{StaticResource fontSize}" />
+            </Style>
+            <Style x:Key="infoLabelStyle" BasedOn="{StaticResource baseLabelStyle}" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
