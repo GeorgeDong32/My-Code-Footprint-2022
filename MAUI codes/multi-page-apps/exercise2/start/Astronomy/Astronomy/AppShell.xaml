@@ -3,21 +3,22 @@
     x:Class="Astronomy.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Astronomy.Pages">
+    xmlns:local="clr-namespace:Astronomy.Pages"
+    FlyoutIcon="moon.png">
 
-    <Shell.FlyoutHeader>
+    <!-- You can add this back in for the header -->
+    <!--<Shell.FlyoutHeader>
         <Grid HeightRequest="100" BackgroundColor="DarkSlateBlue">
             <Image Source="moon.png"/>
         </Grid>
-    </Shell.FlyoutHeader>
+    </Shell.FlyoutHeader>-->
 
-    <FlyoutItem Title="Moon Phase" Icon="moon.png">
-        <ShellContent
+
+    <FlyoutItem Title="Astronomy" Icon="moon.png">
+        <ShellContent Title="Moon Phase" Icon="moon.png"
             ContentTemplate="{DataTemplate local:MoonPhasePage}"/>
-    </FlyoutItem>
 
-    <FlyoutItem Title="Sunrise" Icon="sun.png">
-        <ShellContent 
+        <ShellContent Title="Sunrise" Icon="sun.png"
             ContentTemplate="{DataTemplate local:SunrisePage}"/>
     </FlyoutItem>
 
