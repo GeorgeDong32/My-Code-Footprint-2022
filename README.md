@@ -41,7 +41,7 @@ Thanks for the JetBrains' free student pack and Azure for Students subscription.
 
 ## License
 <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/GeorgeDong32/My-Code-Footprint/blob/main/MCF-License.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/GeorgeDong32/My-Code-Footprint/blob/main/MCF_License_Dark.png">
       <source media="(prefers-color-scheme: light)" srcset="https://github.com/GeorgeDong32/My-Code-Footprint/blob/main/MCF-License.png">
       <img alt="License" src="https://github.com/GeorgeDong32/My-Code-Footprint/blob/main/MCF-License.png">
   </picture>
